@@ -1,0 +1,58 @@
+nav {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 16px;
+  border-bottom: 1px solid var(--border);
+}
+
+nav a {
+  color: var(--text-h);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: var(--accent);
+}
+
+.product-card {
+  width: min(100%, 420px);
+  box-sizing: border-box;
+  margin: 12px auto;
+  padding: 12px 20px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: min(100%, 420px);
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0 16px;
+  text-align: left;
+}
+
+form label {
+  display: block;
+  margin-bottom: 4px;
+  color: var(--text-h);
+}
+
+form input,
+form select,
+form textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 8px;
+  font: inherit;
+}
+
+button {
+  padding: 8px 16px;
+  font: inherit;
+  cursor: pointer;
+}
